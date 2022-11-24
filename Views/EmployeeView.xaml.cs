@@ -10,7 +10,7 @@ namespace MvvmDemo.Views
     /// <summary>
     /// Interaction logic for EmployeeView.xaml
     /// </summary>
-    public partial class EmployeeView : UserControl , INotifyPropertyChanged
+    public partial class EmployeeView : Window , INotifyPropertyChanged
     {
         EmployeeViewModel employeeViewModel; 
         public EmployeeView()
